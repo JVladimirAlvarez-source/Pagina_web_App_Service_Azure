@@ -7,28 +7,28 @@ Este repositorio contiene un script en Azure CLI para automatizar el despliegue 
 - Azure CLI o acceso a Azure Cloud Shell.
 - Control de versiones con Git.
 
-### Estructura del Script
-### ==========================================
-### SCRIPT DE DESPLIEGUE EN AZURE APP SERVICE
-### ==========================================
+## Estructura del Script
+## ==========================================
+## SCRIPT DE DESPLIEGUE EN AZURE APP SERVICE
+## ==========================================
 
-### 1. Definición de Variables Globales
+## 1. Definición de Variables Globales
 RESOURCE_GROUP="RG-WordPress-Sandbox"
 LOCATION="westus2"
 PLAN_NAME="Plan-WordPress-Free"
 WEBAPP_NAME="blogjhonny01"
 
-### 2. Crear Grupo de Recursos
+## 2. Crear Grupo de Recursos
 az group create --name $RESOURCE_GROUP --location $LOCATION
 
-### 3. Crear Plan de App Service (Nivel F1 Gratuito en Linux)
+## 3. Crear Plan de App Service (Nivel F1 Gratuito en Linux)
 az appservice plan create \
   --name $PLAN_NAME \
   --resource-group $RESOURCE_GROUP \
   --sku F1 \
   --is-linux
 
-### 4. Crear la Web App con Runtime PHP 8.2
+## 4. Crear la Web App con Runtime PHP 8.2
 az webapp create \
   --name $WEBAPP_NAME \
   --resource-group $RESOURCE_GROUP \
