@@ -7,9 +7,8 @@ Este repositorio contiene un script en Azure CLI para automatizar el despliegue 
 - Azure CLI o acceso a Azure Cloud Shell.
 - Control de versiones con Git.
 
-## Estructura del Script
 ## ==========================================
-## SCRIPT DE DESPLIEGUE EN AZURE APP SERVICE
+# ESTRUCTURA DEL SCRIPT
 ## ==========================================
 
 ## 1. Definición de Variables Globales
