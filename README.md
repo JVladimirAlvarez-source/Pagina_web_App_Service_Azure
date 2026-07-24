@@ -8,7 +8,7 @@ Este repositorio contiene un script en Azure CLI para automatizar el despliegue 
 - Control de versiones con Git.
 
 ## ==========================================
-# ESTRUCTURA DEL SCRIPT
+#  Estructura del script
 ## ==========================================
 
 ## 1. Definición de Variables Globales
