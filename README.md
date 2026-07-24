@@ -7,9 +7,7 @@ Este repositorio contiene un script en Azure CLI para automatizar el despliegue 
 - Azure CLI o acceso a Azure Cloud Shell.
 - Control de versiones con Git.
 
-## ==========================================
-##  Estructura del script
-## ==========================================
+#  Estructura del script
 
 ## 1. Definición de Variables Globales
 RESOURCE_GROUP="RG-WordPress-Sandbox"
